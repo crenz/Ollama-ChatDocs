@@ -1,4 +1,4 @@
-import lib.settings as settings
+import modules.settings as settings
 
 import streamlit as st
 import pypdf

@@ -1,4 +1,4 @@
-import lib.settings as settings
+import modules.settings as settings
 
 from dotenv import load_dotenv
 import os
@@ -15,7 +15,7 @@ from langchain.chains import RetrievalQA
 from langchain.callbacks.manager import CallbackManager
 from typing import Any, Dict, List
 
-from lib.stcallbackhandler import StreamingStreamlitCallbackHandler
+from modules.stcallbackhandler import StreamingStreamlitCallbackHandler
 
 global outputArea
 
